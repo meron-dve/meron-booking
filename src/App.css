@@ -1,0 +1,285 @@
+
+*, *::before, *::after {
+box-sizing: border-box;
+font-family: slab serif;
+margin: 0px;
+}
+.home{
+ 
+  height:100vh;
+  width: 100vw;
+} 
+
+.ful-screen{
+   background-image: url(./components/bjd.avif);
+     background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size: cover;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    height:100vh;
+  width: 100vw;
+  background-attachment: fixed;
+margin: 0px;
+
+}
+
+
+
+.login-container{
+  background-color: hsl(200, 100%, 6%, .5);
+  box-shadow: 0 0 15px 0  hsl(200, 100%, 6%, .7);
+  padding: 40px 30px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 20px;
+}
+.login-title{
+  margin: 0;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: norm al;
+
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  color:white;
+  gap:10px;
+  margin-top: 40px
+}
+.input-group{
+   display: flex;
+   flex-direction: column;
+   gap: 7px;
+}
+.input-group.label {
+color: white;
+font-weight: lighter;
+}  
+.input-group.input {
+  font-size: 1.25rem;
+  padding: .5rem;
+  background-color: hsl(200,100%, 91%, .3);
+  border:none;
+  outline: none;
+  border-radius: .25rem;
+  color:white; 
+  font-weight: lighter;
+}
+.input-group.nput:hover {
+  box-shadow: 0 0 0 1px hsl(200, 100%, 91%);
+
+}
+.login-button {
+  display: flex;
+  flex-direction: column;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  width: 100%;
+  font-weight: lighter;
+  color: white;
+  background-color: hsl( 200, 100%, 50%, .25);
+  border: 1px solid hsl(200, 100%, 50%);
+  border-radius: .24rem;
+  outline: none;
+  cursor: pointer;
+}
+.login-button:hover,
+.login-button:focus {
+  background-color: hsl( 200, 100%, 50%, .4);
+}
+.home-screen {
+
+  width: 100vw;
+height: 100vh;
+
+
+  
+}
+.nav-container {
+height: 120px;
+color: black;
+box-sizing: border-box;
+margin: 20px;
+border-radius: 20px;
+border: 1px solid transparent;
+box-shadow: 2px 8px 10px 10px #f1efef;
+
+}
+.nav-part {
+  display: flex;
+  justify-content: space-between;
+  height: 100;
+  align-items: baseline;
+padding: 20px;
+
+  
+  color: black;
+  
+  
+
+}
+.nav-ul  {
+  display: flex;
+  list-style: none;
+  color:white;
+  height: 100%;
+  gap:2.5rem;
+
+ 
+  padding: 0 10rem;
+}
+.lin:hover {
+  background-color: black;
+  color: white;
+}
+.lin {
+
+  color: black;
+    text-decoration: none;
+padding: 15px 30px;
+border-radius: 25px;
+}
+.greet{
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+.search-bar{
+  text-align:start;
+  padding: 10px;
+  font-size: larger;
+gap: 2rem;
+  
+}
+.input{
+  border: 1px solid lightgrey;
+  margin-left: 2rem;
+  border-radius: 20px;
+padding: 10px 10px
+}
+.input:hover,
+.input:focus {
+  background-color:  #f1efef;
+}
+.serivce-part{
+padding: 1rem;
+margin-left: 20px;
+}
+
+.ser-button {
+  display: flex;
+ margin-left: 20px; 
+}
+.btn{
+gap: 2rem;
+font-size: 1rem;
+padding: 15px 30px;
+border: 1px solid transparent;
+border-radius: 17px;
+background-color: white;
+margin-top: 20px;
+}
+.but{
+font-size: 1rem;
+padding: .25rem 1rem;
+border-radius: 17px;
+border: 0px solid transparent;
+background-color: transparent;
+}
+.but:hover,
+.but:focus{
+background-color: black;
+color:white;
+
+}
+
+.btn:hover,
+.btn:focus{
+  background-color: black;
+  color: white;
+ 
+  
+ 
+}
+
+.des-image{
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+margin-top: 2rem;
+width: 90%;
+min-width:700px;
+height: 120px;
+padding: 40px 40px;
+margin: 20px;
+border:1px solid transparent;
+border-radius: 10px;
+background-color: white;
+justify-items: flex-end;
+box-shadow: 2px 8px 10px 10px #f1efef;
+
+}
+.dis{
+  display: flex;
+  flex-direction: column;
+  
+}
+.pric{
+  padding-left: 23rem;
+  padding-right: 0px;
+}
+
+.both{
+  display:                                                                                                                                                                                                                                                                                                                        flex;
+
+  justify-content: space-between;
+  
+}
+ .cost{
+  
+margin-top: 0px;
+  border: 1px solid transparent;
+border-radius: 10px;
+  background-color: #ebe8e8;
+  width: 40%;
+  margin-right: 80px;
+   
+
+  height: 400px;
+  padding: 100px 50px;
+}
+.active-btn{ 
+  gap: 2rem;
+font-size: 1rem;
+padding: 15px 30px;
+border: 1px solid transparent;
+border-radius: 17px;
+background-color: darkgray;
+margin-top: 20px;
+
+}
+.datetime-selection {
+  display:flex;
+width: 650px;
+margin: 20px;
+}
+.next {
+  
+  border: 1px solid transparent;
+  text-align: center;
+  background-color: #fff;
+margin: 40px;
+padding: px 30px;
+border-radius: 10px;
+background-color: darkgray;
+}
+.next:focus {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
