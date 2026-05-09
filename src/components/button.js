@@ -1,18 +1,23 @@
+import { duration } from "@mui/material";
+
 export const hairData = [
   {
     id: 78,
     name: "Hair Blowout",
     price: 23,
+    duration: 30
   },
   {
     id: 3,
     name: "Hair Dying",
     price: 50,
+    duration: 30
   },
   {
     id: 89890,
     name: "Hair Cut  ",
     price: 10,
+    duration: 30
   },
 ];
 export const nailData = [

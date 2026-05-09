@@ -9,6 +9,7 @@ import { Facial } from "./Facial.jsx";
 import { Skin } from "./Skin.jsx";
 import { TopNavigation } from "./TopNavigation.jsx";
 import { Cost } from "./Cost.jsx";
+import { Booking } from './Booking.jsx'
 
 function Home() {
   const [activeServiceType, setActiveServiceType] = useState("hair-styling");
@@ -75,7 +76,7 @@ function Home() {
             <div id="data-1">
               <div>
                 {activeServiceType === "hair-styling" && (
-                  <Ser handleBooking={handleBooking} content={visible} />
+                  <Ser handleBooking={handleBooking} content={visible}  />
                 )}
               </div>
             </div>
@@ -92,7 +93,10 @@ function Home() {
               <Cost />
             </div>
           </div>
-          {/* <div>{visible && <Booking />}</div> */}
+          <div>{visible && <Booking
+          bookingItemId={visible}
+          activeServiceType={activeServiceType}
+          />}</div>
           <About />
           <Main />
         </div>
